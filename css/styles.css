@@ -1,0 +1,242 @@
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0px;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+section {
+  padding: 40px 120px;
+  background: #fff;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h1 {
+  margin-bottom: 0px;
+}
+
+section hr {
+  border-color: #FF5722;
+  width: 120px;
+  margin: 20px 0px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+nav {
+  padding: 15px 40px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+
+nav li a:hover {
+  border-bottom: 3px solid #FF5722;
+
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+
+nav ul {
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.nav-right {
+  float: right;
+}
+
+.break {
+  width: 80px;
+  margin: 0 auto;
+  border-color: #FF5722;
+}
+
+.text-center {
+  text-align: center
+}
+
+.btn-contact {
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 5px 20px;
+}
+
+.btn-contact:hover {
+  border: 2px solid #FF5722;
+}
+
+#about {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+#about img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: block;
+  margin: 20px auto 0px;
+}
+
+#about p {
+  width: 25%;
+  display: block;
+  margin: 20px auto;
+}
+
+#about h1 {
+  margin-bottom: 0px; 
+  font-weight: 300;
+  font-size: 46px;
+}
+
+#about h3 {
+  font-weight: 600;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.snippet {
+  margin-bottom: 50px;
+}
+
+.snippet-code {
+  width: 50%;
+  display: inline-block;
+}
+
+.snippet-description {
+  display: inline-block;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+#projects {
+  background: whitesmoke;   
+  position: relative;
+}
+
+.project-table img {
+  box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.5);
+}
+
+.project-table td {
+  width: 40%;
+  padding-bottom: 120px;
+  padding-right: 5%;
+}
+
+.project-links {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.project-links li {
+  display: inline;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.project-links a {
+  color: #333;
+
+  transition: color 700ms ease;
+  -webkit-transition: color 700ms ease;
+  -moz-transition: color 700ms ease;
+  -o-transition: color 700ms ease;
+}
+
+.project-links a:hover {
+  color: #FF5722;
+
+  transition: color 700ms ease;
+  -webkit-transition: color 700ms ease;
+  -moz-transition: color 700ms ease;
+  -o-transition: color 700ms ease;
+}
+
+#contact {
+  text-align: center;
+  background: url(../images/resume-bg.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 120px;
+}
+
+#contact ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+#contact h1 {
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+#contact p {
+  margin-top: 0px;
+}
+
+footer {
+  background: #1a1a1a;
+  color: #333;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+}
+

@@ -1,0 +1,235 @@
+<html>
+  <head>
+    <title>Takehiro Mouri | Ruby on Rails Developer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Takehiro Mouri - Co-Founder at TECHRISE. Passionate Ruby on Rails developer.">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/railscasts.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>          
+        </ul>
+        <ul class="nav-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#snippets">Code Snippets</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="" class="btn-contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>  
+
+    <div id="about">
+      <img src="images/prof.jpg" />
+
+      <h1>Takehiro Mouri</h1>
+      <h3>Trainee at TECHRISE</h3>
+
+      <hr class="break"/>
+
+      <p>
+        Co-Founder at TECHRISE. I love teaching, writing, and reading about code. I love to code with Ruby as it gives me an intense feeling of flow. I like to travel, play drums, or play the guitar in my spare time.
+      </p>
+    </div>
+
+    <section id="snippets">
+      <div class="section-title">
+        <h1>Code Snippets</h1>
+        <p>Here are some coding challenges that I solved in the TECHRISE Introduction to Software Engineering course.</p>
+        <hr />
+      </div>
+
+      <div class="snippet">                
+
+        <div class="snippet-code width-50">
+          <h3>FizzBuzz</h3>
+          <pre><code class="ruby">def fizzbuzz?(num)
+  case
+  when num % 15 == 0 then "FizzBuzz"
+  when num % 3  == 0 then "Fizz"
+  when num % 5  == 0 then "Buzz"
+  else num
+  end
+end</code></pre>
+        </div>
+
+        <div class="snippet-description float-right width-40">
+          <p>
+            On the challenge I struggled with Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="snippet">        
+
+        <div class="snippet-description width-50">
+          <p>
+            On the challenge I struggled with Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>        
+
+        <div class="snippet-code float-right width-40">
+          <h3>Temperature Conversion</h3>
+          <pre><code class="ruby">def convert_temperature(num)
+  case
+  when num % 15 == 0 then "FizzBuzz"
+  when num % 3  == 0 then "Fizz"
+  when num % 5  == 0 then "Buzz"
+  else num
+  end
+end</code></pre>
+        </div>
+
+        
+
+      </div>
+      
+    </section>
+
+
+    <section id="projects">
+      <div class="section-title">
+        <h1>Projects</h1>
+        <p>Here are some projects that I have completed at TECHRISE.</p>
+        <hr />
+      </div>
+
+      <table class="project-table">
+        <tr>
+          <td>
+            <h3>Ideator</h3>
+            <p>
+              A database driven idea sharing platform written with Ruby, Ruby on Rails, and HTML/CSS. Users can post their ideas to share to the world.
+            </p>
+            <ul class="project-links">
+              <li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+            </ul>            
+          </td>
+
+          <td>
+            <img src="images/ideator.png" class="img-responsive"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="images/accounting.png" class="img-responsive"/>            
+          </td>
+
+          <td>
+            <h3>Financial Accounting app</h3>
+            <p>
+              A simple finance tracking application that automatically calculates the debts, balances, and total. Users can edit and delete financial records easily.
+            </p>
+            <ul class="project-links">
+              <li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+            </ul>     
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <h3>Instapost</h3>
+            <p>
+              A complete clone of Instagram built with the Ruby on Rails framework, complete with photo uploading, user authentication, user profiles, commenting, follow/unfollow, and liking/dislking features. Utilized AJAX to enable a smooth user experience.
+            </p>
+            <ul class="project-links">
+              <li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+            </ul>     
+          </td>
+
+          <td>
+            <img src="images/instapost.png" class="img-responsive"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="images/filmster.png" class="img-responsive"/>            
+          </td>
+
+          <td>
+            <h3>Filmster</h3>
+            <p>
+              An online movie reviewing portal using an outside API. Used AJAX to fetch data and display movie information dynamically. Users can review any movie, follow other users, and upvote reviews.
+            </p>
+            <ul class="project-links">
+              <li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+            </ul>     
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <h3>Blog written using TDD methodology</h3>
+            <p>
+              Test driven development is an industry standard. I built a simple blog application with the TDD methodology.
+            </p>
+            <ul class="project-links">
+              <li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+            </ul>     
+          </td>
+
+          <td>
+            <img src="images/tdd.png" class="img-responsive"/>
+          </td>
+        </tr>
+      </table>
+      
+    </section>    
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>
+        Hit me up for a chat over a nice cup of coffee.
+      </p>
+
+      <hr class="break" />
+
+      <ul>
+        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> takehiro@techrise.me</li>
+        <li><i class="fa fa-globe" aria-hidden="true"></i> www.takehiromouri.com</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2016 Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Takehiro Mouri</p>
+    </section>
+
+    <script type="text/javascript">
+    // $('#project-container').masonry({
+    //   // options
+    //   itemSelector: '.project',
+    //   columnWidth: 20
+    // });
+    </script>
+  </body>
+</html>
+
